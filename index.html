@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gradient Descent - Batman</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Loader Page -->
+  <div id="loader">
+    <img src="images/BATlogo.png.jpg" alt="Bat Logo" class="bat-logo">
+    <h1>Entering Gotham...</h1>
+  </div>
+
+  <!-- Main Content -->
+  <div id="main-content" style="display:none;">
+    <header>
+      <h1 class="team-name">Team Gradient Descent</h1>
+    </header>
+
+    <!-- Video Background -->
+    <video autoplay muted loop id="bg-video">
+      <source src="images/batarkham.mp4.mp4" type="video/mp4">
+    </video>
+
+    <!-- Infinite Marquee (Element 6) -->
+    <div class="marquee">
+      <p>I am Vengeance | I am the Night | I am Batman | Guardian of Gotham | Fear the Bat | Protector of the Innocent |</p>
+    </div>
+
+    <!-- Welcome Text -->
+    <section>
+      <h2 class="welcome-text">Welcome to Gotham</h2>
+    </section>
+
+    <!-- Batman Qualities Section (Element 7) -->
+    <section class="qualities">
+      <h2>Batman Qualities</h2>
+      <div class="qualities-list">
+        <div class="quality" data-photo="images/robert-stare1.gif">Stealth</div>
+        <div class="quality" data-photo="images/robert-stare2gif.gif">Detective Skills</div>
+        <div class="quality" data-photo="images/batchase.gif.gif">Combat Mastery</div>
+      </div>
+      <img id="quality-photo" src="" alt="Hover to see quality" />
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
